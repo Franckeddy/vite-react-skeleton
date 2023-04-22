@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+!/src/assets/sass/tools/tools.css
+!/src/assets/sass/tools/tools.css.map
+!/src/assets/sass/vendors/vendors.css
+!/src/assets/sass/vendors/vendors.css.map
+!/src/assets/sass/.sass-cache/
+!/src/assets/sass/layout/layout.css
+!/src/assets/sass/layout/layout.css.map
+!/src/assets/sass/core/core.css
+!/src/assets/sass/core/core.css.map
+!/src/assets/sass/components/components.css
+!/src/assets/sass/components/components.css.map
+!/src/assets/sass/pages/pages.css
+!/src/assets/sass/pages/pages.css.map
