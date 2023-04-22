@@ -56,6 +56,8 @@
 
 ## About The Project
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/857a999d04dc400c90c6db7faf04672c)](https://app.codacy.com/gh/Franckeddy/vite-react-skeleton?utm_source=github.com&utm_medium=referral&utm_content=Franckeddy/vite-react-skeleton&utm_campaign=Badge_Grade)
+
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
