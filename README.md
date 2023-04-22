@@ -1,4 +1,4 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/74ecac5e21dc4637ae53796fdbccdd08)](https://app.codacy.com/gh/Franckeddy/vite-react-skeleton/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/74ecac5e21dc4637ae53796fdbccdd08)](https://app.codacy.com/gh/Franckeddy/vite-react-skeleton/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Franckeddy/vite-react-skeleton/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Franckeddy/vite-react-skeleton/tree/main)
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
