@@ -35,3 +35,4 @@ dist-ssr
 !/src/assets/sass/components/components.css.map
 !/src/assets/sass/pages/pages.css
 !/src/assets/sass/pages/pages.css.map
+!/src/assets/sass/.sass-cache/
