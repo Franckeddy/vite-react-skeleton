@@ -1,4 +1,26 @@
-@charset "UTF-8";
+.top-to-btm {
+  position: relative; }
+
+.icon-position {
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+  z-index: 20; }
+
+.icon-style {
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  color: var(--color-grey-dark);
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all .5s ease-in-out; }
+
+.icon-style:hover {
+  animation: none;
+  background: transparent;
+  color: var(--color-primary); }
+
 *:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
   all: unset;
   display: revert; }
@@ -97,19 +119,20 @@ meter {
   text-align: center;
   display: block;
   position: relative;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .text {
   font-size: 70px;
   text-align: center;
   position: relative;
-  display: inline-block;
   margin: 19px 0 0 0;
   /* top: 256.301px; */
   z-index: 3;
   width: 100%;
   line-height: 1.2em;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .btn {
   background-color: white;
@@ -232,7 +255,7 @@ hr:after {
 
 .x4 {
   left: 470px;
-  botttom: 20px;
+  bottom: 20px;
   -webkit-transform: scale(0.75);
   -moz-transform: scale(0.75);
   transform: scale(0.75);
@@ -267,5 +290,33 @@ hr:after {
     margin-left: 1000px; }
   100% {
     margin-left: -1000px; } }
+:root {
+  --color-primary: #c38f4e;
+  --color-secondary: #2a3444;
+  --color-grey: #434343;
+  --color-grey-dark: #3e403c;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-red: #f12711;
+  --color-yellow: #f5af19;
+  --color-green: #38ef7d;
+  --color-green-dark: #00b381;
+  --color-green-garken: #11998e;
+  --color-blue: #2f80ed;
+  --color-blue-light: #56ccf2;
+  --color-blue-grey: #a0bcdf;
+  --color-pink: #ec008c;
+  --color-pink-light: #fc6767;
+  --color-palette1: #DABA91;
+  --color-palette2: #D2AA78;
+  --color-palette3: #CA9C62;
+  --color-palette4: #C38F4E;
+  --color-palette5: #B7823E;
+  --color-palette6: #A57538;
+  --color-palette7: #956932;
+  --color-palette9: #865E2D;
+  --color-palette8: #664822;
+  --font-family-primary: "Poppins", sans-serif;
+  --font-family-secondary: "Mansalva", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
