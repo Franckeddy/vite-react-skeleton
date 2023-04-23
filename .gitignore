@@ -26,7 +26,7 @@ dist-ssr
 !/src/assets/sass/tools/tools.css.map
 !/src/assets/sass/vendors/vendors.css
 !/src/assets/sass/vendors/vendors.css.map
-!/src/assets/sass/.sass-cache/
+!/src/assets/sass/.sass-cache/*
 !/src/assets/sass/layout/layout.css
 !/src/assets/sass/layout/layout.css.map
 !/src/assets/sass/core/core.css
@@ -35,4 +35,3 @@ dist-ssr
 !/src/assets/sass/components/components.css.map
 !/src/assets/sass/pages/pages.css
 !/src/assets/sass/pages/pages.css.map
-!/src/assets/sass/.sass-cache/
