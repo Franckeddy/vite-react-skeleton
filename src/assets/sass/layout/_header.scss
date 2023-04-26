@@ -1,0 +1,20 @@
+header {
+  align-items: center;
+  display: flex;
+  margin: 2em;
+  height: fit-content;
+}
+
+#logo,
+nav {
+  flex: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  list-style: none;
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .top-to-btm {
   position: relative; }
 
@@ -92,6 +93,57 @@ meter {
 :where([draggable="true"]) {
   -webkit-user-drag: element; }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+  margin-top: auto;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .footer p {
+    margin: 0;
+    color: #777; }
+  .footer .yo-content {
+    margin-bottom: .3rem;
+    font-weight: 500;
+    color: #000; }
+  .footer .yo {
+    text-decoration: underline; }
+  .footer .footer-social {
+    display: flex;
+    align-items: center; }
+  .footer .footer-social-link {
+    width: 2.8rem;
+    height: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4rem;
+    transition: .3s linear; }
+    .footer .footer-social-link:hover {
+      background-color: #ececec; }
+
+header {
+  align-items: center;
+  display: flex;
+  margin: 2em;
+  height: fit-content; }
+
+#logo,
+nav {
+  flex: 1; }
+
+nav ul {
+  display: flex;
+  justify-content: space-around; }
+
+nav li {
+  list-style: none; }
+
 .c {
   text-align: center;
   display: block;
@@ -119,20 +171,19 @@ meter {
   text-align: center;
   display: block;
   position: relative;
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 .text {
   font-size: 70px;
   text-align: center;
   position: relative;
+  display: inline-block;
   margin: 19px 0 0 0;
   /* top: 256.301px; */
   z-index: 3;
   width: 100%;
   line-height: 1.2em;
-  display: inline-block;
-}
+  display: inline-block; }
 
 .btn {
   background-color: white;
@@ -255,7 +306,7 @@ hr:after {
 
 .x4 {
   left: 470px;
-  bottom: 20px;
+  botttom: 20px;
   -webkit-transform: scale(0.75);
   -moz-transform: scale(0.75);
   transform: scale(0.75);

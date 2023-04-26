@@ -1,0 +1,41 @@
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+  margin-top: auto;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p{
+    margin: 0;
+    color: #777;
+  }
+  .yo-content{
+    margin-bottom: .3rem;
+    font-weight: 500;
+    color: #000;
+  }
+  .yo{
+    text-decoration: underline;
+  }
+  .footer-social{
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-social-link{
+    width: 2.8rem;
+    height: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4rem;
+    transition: .3s linear;
+    &:hover{
+      background-color: #ececec;
+    }
+  }
+}
